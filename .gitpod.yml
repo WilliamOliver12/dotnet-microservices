@@ -9,6 +9,7 @@ ports:
 # List of VS Code extensions to be installed
 vscode:
   extensions:
+    - ms-dotnettools.csharp
     - anwar.papyrus-pdf
 
 # Commands to run on start
