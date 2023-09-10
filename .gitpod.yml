@@ -2,22 +2,7 @@ image: gitpod/workspace-full:latest
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 80
-    onOpen: "notify"
-    visibility: "public"
-  - port: 5000
-    onOpen: "notify"
-    visibility: "public"
-  - port: 5001
-    onOpen: "notify"
-    visibility: "public"
-  - port: 5020
-    onOpen: "notify"
-    visibility: "public"
-  - port: 5813
-    onOpen: "notify"
-    visibility: "public"
-  - port: 8081
+  - port: 3000-8999
     onOpen: "notify"
     visibility: "public"
 
