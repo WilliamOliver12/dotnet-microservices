@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "/home/gitpod/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/BlazorWebAssemblySignalRApp.Shared.csproj",
+      "projectName": "BlazorWebAssemblySignalRApp.Shared",
+      "projectPath": "/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/BlazorWebAssemblySignalRApp.Shared.csproj",
+      "packagesPath": "/home/gitpod/.nuget/packages/",
+      "outputPath": "/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/gitpod/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

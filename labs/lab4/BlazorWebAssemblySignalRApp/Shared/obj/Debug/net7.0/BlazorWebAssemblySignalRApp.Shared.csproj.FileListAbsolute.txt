@@ -1,0 +1,12 @@
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/bin/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.deps.json
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/bin/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.dll
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/bin/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.pdb
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.csproj.AssemblyReference.cache
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.AssemblyInfoInputs.cache
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.AssemblyInfo.cs
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.csproj.CoreCompileInputs.cache
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.dll
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/refint/BlazorWebAssemblySignalRApp.Shared.dll
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/BlazorWebAssemblySignalRApp.Shared.pdb
+/workspace/dotnet-microservices/labs/lab4/BlazorWebAssemblySignalRApp/Shared/obj/Debug/net7.0/ref/BlazorWebAssemblySignalRApp.Shared.dll

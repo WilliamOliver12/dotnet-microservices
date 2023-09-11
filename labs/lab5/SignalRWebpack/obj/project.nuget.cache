@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "c199gTpCahq7kXXg2JZA0hPxUvM+Z6wdEziHxEYb8MZBkFQBWROMps9sdXQB2FnuKC/2UljuAOhG1VAOWAG9qw==",
+  "success": true,
+  "projectFilePath": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/SignalRWebpack.csproj",
+  "expectedPackageFiles": [
+    "/home/gitpod/.nuget/packages/microsoft.typescript.msbuild/5.2.2/microsoft.typescript.msbuild.5.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

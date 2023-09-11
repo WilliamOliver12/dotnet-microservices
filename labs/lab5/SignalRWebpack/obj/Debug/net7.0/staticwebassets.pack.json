@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/css/main.82c9625ee39a1f28f967.css",
+      "PackagePath": "staticwebassets/css/main.82c9625ee39a1f28f967.css"
+    },
+    {
+      "Id": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/main.82c9625ee39a1f28f967.js",
+      "PackagePath": "staticwebassets/main.82c9625ee39a1f28f967.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.SignalRWebpack.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.SignalRWebpack.props",
+      "PackagePath": "build\\SignalRWebpack.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.SignalRWebpack.props",
+      "PackagePath": "buildMultiTargeting\\SignalRWebpack.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.SignalRWebpack.props",
+      "PackagePath": "buildTransitive\\SignalRWebpack.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

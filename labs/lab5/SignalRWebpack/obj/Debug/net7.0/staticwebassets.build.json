@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "+VmcldzbRk41MGSOXoFhzXdoJX70OF+qpGnfgxJZmfE=",
+  "Source": "SignalRWebpack",
+  "BasePath": "_content/SignalRWebpack",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SignalRWebpack/wwwroot",
+      "Source": "SignalRWebpack",
+      "ContentRoot": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/",
+      "BasePath": "_content/SignalRWebpack",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/css/main.82c9625ee39a1f28f967.css",
+      "SourceId": "SignalRWebpack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/",
+      "BasePath": "_content/SignalRWebpack",
+      "RelativePath": "css/main.82c9625ee39a1f28f967.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/main.82c9625ee39a1f28f967.css"
+    },
+    {
+      "Identity": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/index.html",
+      "SourceId": "SignalRWebpack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/",
+      "BasePath": "_content/SignalRWebpack",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/main.82c9625ee39a1f28f967.js",
+      "SourceId": "SignalRWebpack",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspace/dotnet-microservices/labs/lab5/SignalRWebpack/wwwroot/",
+      "BasePath": "_content/SignalRWebpack",
+      "RelativePath": "main.82c9625ee39a1f28f967.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/main.82c9625ee39a1f28f967.js"
+    }
+  ]
+}
