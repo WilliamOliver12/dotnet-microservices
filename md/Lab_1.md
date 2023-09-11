@@ -28,6 +28,20 @@ sudo apt-get update
 sudo apt-get install -y dotnet-sdk-7.0
 ```
 
+Run following command to add dotnet tools in path variable:
+
+```
+cat << \EOF >> ~/.bash_profile
+# Add .NET Core SDK tools
+export PATH="$PATH:/home/gitpod/.dotnet/tools"
+EOF
+```
+
+Run following command in the terminal to reload bash_profile:
+
+```
+source ~/.bash_profile
+```
 
 **Check everything installed correctly**
 

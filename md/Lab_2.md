@@ -300,22 +300,13 @@ Install Postman to test the app
 -------------------------------
 
 
--   Install [Postman](https://www.getpostman.com/downloads/)
+-   Install [Postman](https://www.getpostman.com/downloads/) in your workstation. You can use any other tool as well.
 -   Start the web app.
 -   Start Postman.
 -   Select **Workspaces** \> **Create Workspace** and then select
     **Next**.
 -   Name the workspace *TodoApi* and select **Create**.
--   Select the settings gear icon \> **Settings** (**General** tab) and
-    disable **SSL certificate verification**.
-    
-    Warning
-
-    Re-enable SSL certificate verification after testing the sample app.
-    
-
-
-
+-   Disable **SSL certificate verification** if you get SSL certificate error.
 
 
 Test posting data
@@ -350,8 +341,7 @@ Use the POST endpoint to add data to the app.
 
 -   Set the HTTP method to `POST`.
 
--   Set the URI to `https://PORT-YOUR_GITPOD_URL.gitpod.io/todoitems`. For example:
-    `https://YOUR_GITPOD_URL:5001/todoitems`
+-   Set the URI to `https://PORT-YOUR_GITPOD_URL.gitpod.io/todoitems`.
 
 -   Select the **Body** tab.
 
@@ -384,13 +374,7 @@ Examine the GET endpoints
 The sample app implements several GET endpoints by calling `MapGet`:
 
 
-  API                         Description                     Request body   Response body
-  --------------------------- ------------------------------- -------------- ----------------------
-  `GET /todoitems`            Get all to-do items             None           Array of to-do items
-  `GET /todoitems/complete`   Get all completed to-do items   None           Array of to-do items
-  `GET /todoitems/{id}`       Get an item by ID               None           To-do item
-
-
+![](./images/8.png)
 
 
 
@@ -532,7 +516,7 @@ Use Postman to send a PUT request:
 -   Set the method to PUT.
 
 -   Set the URI of the object to update (for example
-    `https://YOUR_GITPOD_URL:5001/todoitems/1`).
+    `https://PORT-YOUR_GITPOD_URL/todoitems/1`).
 
 -   Set the body to the following JSON:
 
@@ -575,12 +559,11 @@ Use Postman to delete a to-do item:
 
 -   Set the method to `DELETE`.
 -   Set the URI of the object to delete (for example
-    `https://YOUR_GITPOD_URL:5001/todoitems/1`).
+    `https://PORT-YOUR_GITPOD_URL/todoitems/1`).
 -   Select **Send**.
 
 
 Use the MapGroup API
-
 --------------------
 
 
@@ -863,9 +846,6 @@ Unit test code can verify that an object of type
 is returned from the handler method. For example:
 
 
-
-
-
 ``` 
 public async Task GetAllTodos_ReturnsOkOfTodosResult()
 {
@@ -883,11 +863,10 @@ public async Task GetAllTodos_ReturnsOkOfTodosResult()
 
 
 Prevent over-posting
-
 --------------------
 
 
-Currently the sample app exposes the entire `Todo` object. Production
+Currently the app exposes the entire `Todo` object. Production
 apps typically limit the data that\'s input and returned using a subset
 of the model. There are multiple reasons behind this and security is a
 major one. The subset of a model is usually referred to as a Data
