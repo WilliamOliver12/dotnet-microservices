@@ -196,7 +196,7 @@ warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
 Wait for the app to display that it\'s listening and then open a browser and
 navigate to `https://PORT-YOUR_GITPOD_URL.gitpod.io/WeatherForecast`
 
-In this exercise, it showed that it was listening on port `5111` and it might be **differnet port** for you, so the following image shows the URL `https://PORT-YOUR_GITPOD_URL.gitpod.io/WeatherForecast`.
+In this exercise, it showed that it was listening on port `5111` and it might be **different port** for you, so the following image shows the URL `https://PORT-YOUR_GITPOD_URL.gitpod.io/WeatherForecast`.
 
 ![](./images/screenshot-microservice-tutorial-run.png)
 
