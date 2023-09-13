@@ -87,7 +87,7 @@ static async Task<IResult> PurchaseIceCream(int id, int scoops, IceCreamDb db) {
         IceCream.ScoopsInStock -= scoops;
         
         await db.SaveChangesAsync();
-        return TypedResults.Ok(new IceCreamDTO(IceCream));
+        return TypedResults.Ok($"Purchased {scoops} scoops of {IceCream.Flavor}. Enjoy!");
     }
     return TypedResults.NotFound();
 }
